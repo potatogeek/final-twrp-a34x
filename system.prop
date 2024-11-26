@@ -1,0 +1,8 @@
+# Device
+ro.display.series=Samsung Galaxy A34
+
+# Platform
+ro.board.platform=mt6877
+
+# Dynamic partitions
+ro.boot.dynamic_partitions=true
