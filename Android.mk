@@ -6,6 +6,7 @@
 #
 
 LOCAL_PATH := $(call my-dir)
+LOCAL_STATIC_LIBRARIES += libvendorinit
 
 ifeq ($(TARGET_DEVICE),a34x)
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
